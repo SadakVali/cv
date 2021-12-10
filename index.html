@@ -5,80 +5,67 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sadak's Personal Web Page</title>
+        <title>Sadak's Personal Site</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./images/sadak1.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
     </head>
 
+    <header class="header-div">
+        <img class="header-pic" src="./images/header.jpg" alt="header picture">
+        <div class="sadak-info">
+            <h1>I'm Sadak Vali</h1>
+            <p>An ML Engineer, MERN stack & React Native developer.</p>
+        </div>
+    </header>
+
     <body>
-        <center>
-            <table cellspacing="20">
-                <tr>
-                    <td>
-                        <!-- How to isert an image into the webpage? -->
-                        <!-- We can use image tag ===> img + TAB ===> <img src="" alt=""> Self closing tag -->
-                        <!-- in the image tag we have to provide the source of the image. It can be local file in the same directory or a web link -->
-                        <!-- in the image tag alt is used to display text at the place of image in the webpage incase if the image is not fetched properly. -->
-                        <!-- one more thing about alt attribute is, Google uses this text to understand the what your page page is all about. SEO -->
-                        <!-- If your web page all about recipies of the food then alt should be like ===> Finished burrito product img 1 -->
-                        <!-- <img src="https://drive.google.com/file/d/1Q2yciiUga_uBLdkdoxnUivMnFolnYXSu/view?usp=sharing" alt="sadak vali picture"> -->
-                        <!-- To create circle images type crop circle image online -->
-                        <img src="./images/sadak1.png" alt="sadak vali picture">
-                    </td>
-                    <td>
-                        <h1>Sadak Vali</h1>
-                        <!-- How to italicize the data? -->
-                        <!-- We can use emphasis tag (<em>text to be italiciozed</em>) or i tag for this. -->
-                        <!-- use em tags instead of i tags for italicizing -->
-                        <!-- How to make the text bold? -->
-                        <!-- We can use bold tag (<bold>text to be bolded</bold>) or strong tag (<strong>text to be bolded</strong>) -->
-                        <!-- use strong tag to make words bold -->
-                        <p><em>Founder and CTO of <strong><a href="index.html">Poke Life</a></strong></em>.</p>
-                        <p>I am an Electrical & ML Engineer, MERN Stack and React Native Developer.</p>
-                    </td>
-                </tr>
-            </table>
-        </center>
+        <div class="sadak-introduction"> 
+            <div>
+                <img class="sadak-pic" src="./images/sadak1.png" alt="header picture">
+            </div>
+            <h1>Hello</h1>
+            <div>
+                <p>I am Founder and CTO of Poke Life. I can help you with Machine Learning & Deep Learning projects.</p>
+                <p>& I am also a MERN stack Web and React Native Ios, Android Developer.</p>
+            </div>            
+        </div>
 
-        <hr size='3' noshade>
-        
-        <h3>Education</h3>
-        <!-- To create a list of bullet points we use unordered list tag ===> ul + TAB ===> <ul></ul> -->
-        <ul>
-            <!-- To insert the bullet we use list tag ===> li + TAB ===> <li></li> -->
-            <li>Electrical Engineering from JNTUA</li>
-            <li>AI from Applied Roots</li>
-            <li>MERN stack from Angela Yu</li>
-            <li>React Native from Udemy</li>
-        </ul>
-        
-        <hr size='3' noshade>
+        <div class="skills">
+            
+            <h1>My Work Experience</h1>
 
-        <h3>work experience</h3>
-        <ul>
-            <li>Internship @ AppliedRoots</li>
-        </ul>
+            <div class="ML-skills-flex">
+                <div><img class="programming-pic" src="./images/web-programming.png" alt="web dev pic"></div>
+                <div class="ML-content">
+                    <h2>My Machine Learning Work Experience</h2>
+                    <p>Currently I am working for <a href="https://www.appliedaicourse.com/">AppliedAI</a> and 
+                        <a href="https://www.appliedroots.com/diploma">AppliedRoots</a>, Hyderabad based EdTech Stratup, 
+                        with 2 years of experience.</p>
+                </div>
+            </div>
 
-        <hr size='3' noshade>
+            <div class="SDE-skills-flex">
+                <div class="SDE-content">
+                    <h2>My Web&Mobile Development Work Experience</h2>
+                    <p>Currently I am working for my Startup as a CTO and looking for any Freelance projects. 
+                    If you need any help with MERN stack or React Native Development, ping me.</p>
+                </div>
+                <div><img class="programming-pic" src="./images/web-programming.png" alt="web dev pic"></div>
+            </div>
 
-        <h3>Skills</h3>
-        <table cellspacing="5">
-            <tr>
-                <td>Applied AI</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>MERN Stack</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>DS&Algo</td>
-                <td>⭐⭐⭐</td>
-                <td>React Native</td>
-                <td>⭐</td>
-            </tr>
-        </table>
-
-        <hr size="3" noshade="">
-        
-        <a href="my_hobbies.html">My Hobbies</a>
-        <a href="contact_me.html">Contact me</a>
+        </div>
     </body>
 
-</html>
+    <footer>
+        <div class="contact-me">
+            <h1>Contact Me</h1>
+            <div>
+                <a class="email" href="mailto:rebirth4vali@gmail.com">rebirth4vali@gmail.com</a>
+                <a href="#">8309157924</a>
+                <a href="#">9440365688</a>
+            </div>
+        </div>
+    </footer>

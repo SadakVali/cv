@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    background-color: #FAEDF0;
+}
+
+.header-div {
+    position: relative;
+    height: 50rem;
+}
+
+.header-pic {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.sadak-info {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: auto;
+}
+
+.sadak-info h1 {
+    font-size: 6rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Corinthia', cursive;
+    color: turquoise;
+}
+
+.sadak-info p {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.sadak-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem;
+    height: 60rem;
+}
+
+.sadak-introduction h1 {
+    font-size: 6rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Corinthia', cursive;
+    color: turquoise;
+}
+
+.sadak-introduction p {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: serif;
+    color: #396EB0;
+    line-height: 1.5;
+}
+
+.skills {
+    text-align: center;
+    margin: 5rem;
+}
+
+.skills h1 {
+    font-size: 6rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Corinthia', cursive;
+    color: cyan;
+}
+
+.skills p {
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-family: serif;
+    color: #396EB0;
+    line-height: 1.5;
+}
+
+.ML-content a {
+    text-decoration: none;
+    color: rgb(50, 252, 0);
+}
+
+.ML-content a:hover {
+    color: cyan;
+}
+
+.programming-pic {
+    width: 15rem;
+}
+
+.ML-skills-flex {
+    display: flex;
+    margin: 5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: darkmagenta;
+}
+
+.ML-content {
+    margin-left: 3rem;
+}
+
+.SDE-skills-flex {
+    display: flex;
+    margin: 5rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SDE-content {
+    margin-right: 6rem;
+    text-align: left; 
+}
+
+.SDE-skills-flex img {
+    margin-right: 0px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: turquoise;
+    height: 15rem;
+}
+
+.contact-me h1 {
+    font-size: 6rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Corinthia', cursive;
+    color: cyan;
+}
+
+.contact-me a {
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #396EB0;
+}
+
+.contact-me a:hover {
+    color: cyan;
+}
